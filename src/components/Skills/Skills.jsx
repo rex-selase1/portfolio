@@ -7,9 +7,9 @@ const Skills = () => {
       <h1>Skills</h1>
       <div className="cards">
         <div className="card1">
-          <img src="public/images/html.jpg" alt="html" />
-          <img src="public/images/css.png" alt="css" />
-          <img src="public/images/JavaScript-logo.png" alt="javascript" />
+          <img src="./public/images/html.jpg" alt="html" />
+          <img src="./public/images/css.png" alt="css" />
+          <img src="./public/images/JavaScript-logo.png" alt="javascript" />
         </div>
         <div className="card2">
           <img src="public/images/react.jpg" alt="" />
