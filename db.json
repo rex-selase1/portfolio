@@ -31,7 +31,7 @@
     {
       "id": 5,
       "title": "Quote Generator",
-      "image": "./public/images/expense-tracker.png",
+      "image": "./public/images/Quote-generator.PNG",
       "description": "This Quote Generator helps you to generate a random quote buy clicking a button. It fetches the quotes from an API endpoint using the fetch api. It also gives you the author of the quote.",
       "languages": ["HTML /", " CSS /", "JavaScript"]
     },
