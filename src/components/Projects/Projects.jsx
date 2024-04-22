@@ -1,29 +1,20 @@
-import  { useState, useEffect } from 'react';
+// import  { useState} from 'react';
 import './Projects.css';
+import { projects } from '../../assets/assets';
+import { assets } from '../../assets/assets';
+
 
 const Projects = () => {
-  const [projects, setProjects] = useState([]);
+ 
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch('http://localhost:3000/projects');
-        const jsonData = await response.json();
-        setProjects(jsonData);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-        alert('server down')
-      }
-    };
 
-    fetchData();
-  }, []);
+   
 
   return (
     <div id ="projects" className="projects">
       <h1>Projects</h1>
       <div className="cards">
-        {projects.map((project) => (
+        {projects.map((project,index) => (
           <div className="card" key={project.id}>
             <div className="image">
               <img src={project.image} alt={project.title} />
