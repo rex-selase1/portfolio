@@ -31,14 +31,14 @@
     {
       "id": 5,
       "title": "Quote Generator",
-      "image": "./public/images/Quote-generator.PNG",
+      "image": "public/images/Quote-generator.PNG",
       "description": "This Quote Generator helps you to generate a random quote buy clicking a button. It fetches the quotes from an API endpoint using the fetch api. It also gives you the author of the quote.",
       "languages": ["HTML /", " CSS /", "JavaScript"]
     },
     {
       "id": 6,
       "title": "Leanfolio",
-      "image": "./public/images/leanfolio.png",
+      "image": "public/images/leanfolio.png",
       "description": "This site contains everything you need to know about me and my skills. this is the current page you are on. You can contact me through the contact page in the footer section. love you",
       "languages": ["HTML /", " CSS /", "JavaScript /"]
     }
