@@ -1,5 +1,7 @@
 import "./Skills.css";
 // import { useState, useEffect } from 'react';
+import { projects } from '../../assets/assets';
+import { assets } from '../../assets/assets';
 
 const Skills = () => {
   return (
@@ -7,14 +9,14 @@ const Skills = () => {
       <h1>Skills</h1>
       <div className="cards">
         <div className="card1">
-          <img src="/images/html.jpg" alt="html" />
-          <img src="images/css.png" alt="css" />
-          <img src="/images/JavaScript-Logo.png" alt="javascript" />
+          <img src={assets.html} alt="html" />
+          <img src={assets.css} alt="css" />
+          <img src={assets.javascript} alt="javascript" />
         </div>
         <div className="card2">
-          <img src="/images/react.jpg" alt="" />
-          <img src="/images/nodejs.png" alt="" />
-          <img src="/images/mongo.jpg" alt="" />
+          <img src={assets.nodeJs} alt="" />
+          <img src={assets.mongo} alt="" />
+          <img src={assets.react} alt="" />
         </div>
       </div>
     </div>
