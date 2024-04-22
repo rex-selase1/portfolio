@@ -71,3 +71,20 @@ header nav ul li h3:hover{
 .icons i:hover{
   color: #2978B5;
 }
+
+@media   (min-width: 768px) {
+  
+  header{
+    gap: 150px;
+   
+  }
+  header nav ul li h3{
+    font-size: 15px;
+  }
+  header nav ul li a{
+    font-size: 14px;
+  }
+  .icons i{
+    font-size: 20px;
+  }
+}
