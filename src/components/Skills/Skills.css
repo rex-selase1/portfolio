@@ -1,0 +1,46 @@
+.skills{
+    margin-bottom: 100px;
+   
+}
+.skills .cards img{
+    width: 145px;
+    height: 135px;
+    border: 1.5px solid;
+    transition: 0.4s ease;
+    object-fit: cover;
+
+}
+.skills .cards img:hover{
+    transform: scale(1.1);
+}
+.skills h1{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 32px;
+    color: #444444;
+}
+.skills .cards{
+    display: block;
+    width: 700px;
+    margin: auto;
+    justify-content: center;
+    box-shadow:  rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    border-radius: 3px;
+    padding: 10px 0px 40px 0px;
+
+}
+.skills .cards .card1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    
+    margin: 30px 0;
+}
+.skills .cards .card2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+      
+}
